@@ -1,38 +1,76 @@
-.App {
+/* Предложенные стили */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+h2 {
+  color: #003366;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Стили компонента Header */
+header {
+  background-color: #003366;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Стили компонента AboutMe */
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Стили компонента Projects */
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Стили компонента Skills */
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Стили компонента Experience */
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Стили компонента Footer */
+footer {
+  background-color: #003366;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
