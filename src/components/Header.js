@@ -14,7 +14,6 @@ function Header() {
       <CSSTransition in={isMounted} classNames="fade" timeout={500}>
         <h1>Mariia Borisenko - Web Design Student</h1>
       </CSSTransition>
-      {/* Добавьте остальной контент вашего заголовка */}
     </header>
   );
 }

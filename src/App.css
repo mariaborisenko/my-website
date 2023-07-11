@@ -1,4 +1,3 @@
-/* Предложенные стили */
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
@@ -17,7 +16,6 @@ img {
   max-width: 100%;
 }
 
-/* Стили компонента Header */
 header {
   background-color: #003366;
   padding: 20px;
@@ -30,35 +28,30 @@ header h1 {
   margin: 0;
 }
 
-/* Стили компонента AboutMe */
 section {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-/* Стили компонента Projects */
 section {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-/* Стили компонента Skills */
 section {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-/* Стили компонента Experience */
 section {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-/* Стили компонента Footer */
 footer {
   background-color: #003366;
   padding: 20px;

@@ -12,7 +12,6 @@ function Skills() {
         <li>Adobe InDesign</li>
         <li>Adobe Illustrator</li>
         <li>Figma</li>
-        {/* Добавьте остальные навыки */}
       </ul>
     </section>
   );
